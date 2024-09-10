@@ -1,0 +1,28 @@
+{
+  "name": "snowpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-build-script": "^2.0.12",
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "ncp": "^2.0.0",
+    "snowpack": "^2.18.5"
+  },
+  "dependencies": {
+    "pspdfkit": "2024.5.2"
+  },
+  "overrides": {
+    "loader-utils@>= 0.0.0 < 2.0.0": "^1.4.1",
+    "loader-utils@>= 2.0.0 < 3.0.0": "^2.0.4",
+    "loader-utils@>= 3.0.0 < 3.2.0": "^3.2.0",
+    "json5": "^2.2.2"
+  }
+}
